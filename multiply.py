@@ -18,7 +18,7 @@ def multiply_list(input):
     else:
         # start the product by 1 because 0 will return 0
          result = 1
-         for x in list:
+         for x in input:
             if x == 0:
                 return False
             else:
