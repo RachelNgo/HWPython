@@ -2,5 +2,9 @@ def multiply_list(input):
 
     result = 1
     for x in list:
-        result = result * x
-    print(result)
+        if x == 0:
+            return False
+        else:
+            result = result * x
+
+    return result
